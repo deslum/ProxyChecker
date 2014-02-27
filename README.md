@@ -1,4 +1,4 @@
 ProxyChecker
 ============
 
-ProxyChecher
+ProxyChecher - free console util testing proxies.
