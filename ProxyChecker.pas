@@ -21,7 +21,7 @@ begin
   InputFile:=TStringList.Create;
   http:=Thttpsend.Create;
   http.UserAgent :='Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)';
-  InputFile.LoadFromFile('/Users/mas/Documents/ProxyChecker/dHidder/proxy.txt');
+  InputFile.LoadFromFile('proxy.txt');
   for i:=0 to inputfile.Count-1 do begin
       Addr:=InputFile.Strings[i];
       InText:= Pos(':', Addr);
