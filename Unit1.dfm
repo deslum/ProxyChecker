@@ -1,17 +1,24 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+<<<<<<< HEAD
   AutoSize = True
   BorderIcons = [biSystemMenu]
   Caption = 'Proxy Checker'
   ClientHeight = 404
   ClientWidth = 417
+=======
+  Caption = 'Form1'
+  ClientHeight = 448
+  ClientWidth = 416
+>>>>>>> 5f53446ee67c6250061502fb47f8f45ff3acb06f
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+<<<<<<< HEAD
   Menu = MainMenu1
   OldCreateOrder = False
   PixelsPerInch = 96
@@ -82,4 +89,9 @@ object Form1: TForm1
       Caption = #1055#1086#1084#1086#1097#1100
     end
   end
+=======
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+>>>>>>> 5f53446ee67c6250061502fb47f8f45ff3acb06f
 end
