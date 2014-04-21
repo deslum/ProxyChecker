@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014.04.14 14:44:50.156,=C:\Documents and Settings\Юзверь\Мои документы\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014.04.14 14:53:34.093,C:\Documents and Settings\Юзверь\Рабочий стол\ProxyChecker\Unit1.dfm=C:\Documents and Settings\Юзверь\Мои документы\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014.04.14 14:53:34.093,C:\Documents and Settings\Юзверь\Рабочий стол\ProxyChecker\Unit1.pas=C:\Documents and Settings\Юзверь\Мои документы\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014.04.14 14:53:34.812,C:\Documents and Settings\Юзверь\Рабочий стол\ProxyChecker\Project1.dproj=C:\Documents and Settings\Юзверь\Мои документы\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
