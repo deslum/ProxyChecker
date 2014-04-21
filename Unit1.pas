@@ -99,8 +99,8 @@ var
   i:integer;
 begin
   listbox1.Clear;
-  //listbox1.Items.AddStrings(Add('[\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}'));
-  listbox1.Items.AddStrings(Add('td>[0-9]+<\/'));
+  listbox1.Items.AddStrings(Add('[\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}'));
+  //listbox1.Items.AddStrings(Add('td>[0-9]+<\/'));
 end;
 =======
 >>>>>>> 5f53446ee67c6250061502fb47f8f45ff3acb06f
