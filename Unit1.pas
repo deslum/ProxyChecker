@@ -5,7 +5,6 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs,idHttp,RegularExpressionsAPI,RegularExpressionsCore,
-<<<<<<< HEAD
   RegularExpressionsConsts,RegularExpressions, Vcl.StdCtrls, Vcl.Menus,
   Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.ToolWin;
 
@@ -25,14 +24,12 @@ type
     procedure ToolButton1Click(Sender: TObject);
   private
     procedure Start();
-=======
   RegularExpressionsConsts,RegularExpressions,Proxy;
 
 
 type
   TForm1 = class(TForm)
   private
->>>>>>> 5f53446ee67c6250061502fb47f8f45ff3acb06f
     { Private declarations }
   public
     { Public declarations }
@@ -46,7 +43,6 @@ implementation
 {$R *.dfm}
 
 
-<<<<<<< HEAD
 var
   reg:TRegEx;
   http:TIdHttp;
@@ -100,9 +96,6 @@ var
 begin
   listbox1.Clear;
   listbox1.Items.AddStrings(Add('[\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}[.][\d]{1,3}'));
-  //listbox1.Items.AddStrings(Add('td>[0-9]+<\/'));
 end;
-=======
->>>>>>> 5f53446ee67c6250061502fb47f8f45ff3acb06f
 
 end.
