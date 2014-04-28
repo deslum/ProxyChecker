@@ -61,8 +61,6 @@ begin
   for i:=0 to inputfile.Count-1 do begin
       Addr:=InputFile.Strings[i];
       InText:= Pos(':', Addr);
-      //http.Request.ProxyHost:= Copy(Addr, 0, InText - 1);
-      //http.ProxyPort:= Copy(Addr, InText + 1, Length(Addr));
       http.Get('213.180.204.3');
   end;
 end;
