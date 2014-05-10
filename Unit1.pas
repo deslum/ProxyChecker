@@ -48,9 +48,9 @@ var
   http:TIdHttp;
   FS:TStringList;
   InputFile:TStringList;
-  i:integer;
+  i:Integer;
   Addr:String;
-  InText:integer;
+  InText:Integer;
 procedure TForm1.Start();
 begin
   FS:=TStringList.Create;
@@ -74,11 +74,11 @@ begin
   reg.Create(Pattern);
   http:=TIdHttp.Create;
   text:=http.Get('http://free-proxy-list.net/');
-  if reg.IsMatch(Text) then
+  if Reg.IsMatch(Text) then
   begin
-    for i:=0 to reg.Matches(Text).Count-1 do
+    for i:=0 to Reg.Matches(Text).Count-1 do
     begin
-      Str.Add(reg.Matches(Text).Item[i].Value);
+      Str.Add(Reg.Matches(Text).Item[i].Value);
     end;
   end;
   Result:=Str;
