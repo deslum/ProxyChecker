@@ -44,8 +44,8 @@ implementation
 
 
 var
-  reg:TRegEx;
-  http:TIdHttp;
+  Reg:TRegEx;
+  Http:TIdHttp;
   FS:TStringList;
   InputFile:TStringList;
   i:Integer;
